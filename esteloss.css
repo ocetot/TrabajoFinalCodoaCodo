@@ -1,0 +1,130 @@
+
+/* *******************nav******************* */
+/* tamaño de la imagen logo*/
+.imgg{
+    margin-top: 25px; /* margen superior*/
+    margin-left: 50px; /* margen izquierdo*/
+  }
+  /* margen derecho del nav */
+  .margenav{
+  margin-right: 50px; /* margen derecho*/
+  }
+  /* cambiar el color del boton del menu responsibo */
+  .navbar-toggler .navbar-toggler-icon{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); 
+  }
+  .navbar-light .navbar-toggler{
+  border: 1px solid white; /* borde del boton del menu responsivo*/ 
+  } 
+  /*hover cuando paso el mause cambia de color boton*/
+  .nav-item:hover{
+  background-color: #696969de;  /* color del boton*/
+  
+  }
+  /* cambia de color cuando paso el mause a verde de compra */
+  .compra:hover{
+  background-color: #1cf10983;  /* color del boton*/
+  }
+  /*separacion entre los botones*/
+  .mm{
+  padding-left: 8px;    /* separacion entre los botones*/
+  padding-right: 8px;  /* separacion entre los botones*/
+  }
+  
+  /* ********************fin nav*********************** */
+
+
+  /* *******************descuento******************* * */
+.cuadros{
+ 
+  border: #2e2e2e 1px solid; /* color del borde*/
+  height: 400px; /* altura de la linea*/
+  width: 400px; /* ancho de la linea*/
+ 
+  margin-top: 20px; /* margen superior*/
+  margin-bottom: 20px; /* margen inferior*/
+  margin-left: 10px; /* margen izquierdo*/
+  margin-right: 10px; /* margen derecho*/
+    
+
+  }
+
+  .contenedorr{
+  display: flex; /* agrupar los botones*/
+  }
+  .textos{
+    
+  margin-top: 15%; /* margen superior*/
+
+  }
+
+  .tituloydescuento{
+    font-size: 50px; /* tamaño de la letra*/
+  }
+  .descuenott{
+    font-size: 20px; /* tamaño de la letra*/
+  }
+  .titulofin{
+    font-size: 20px; /* tamaño de la letra*/
+    color: #5e5e5e; /* color del texto*/
+  }
+
+  .cuadrouno{
+    border: #004cff 1px solid; /* color del borde*/
+  }
+  .cuadrodos{
+    border: #33ff00 1px solid; /* color del borde*/
+  }
+  .cuadrocuatro{
+    border: #ffae00 1px solid; /* color del borde*/
+  }
+
+  /* *******************fin descuento******************* * */
+
+  /* *******************formulario******************* * */
+  
+  .divdepago{
+
+    width: 100%; /* ancho de la linea*/
+    height: 60px; /* altura de la linea*/    
+    background: #00a2ffa2; /* color de fondo*/
+    border: #00a2ffa2 1px solid; /* color del borde*/
+    border-radius: 3px; /* redondear los bordes*/
+    margin-top: 40px; /* margen superior*/
+
+
+  }
+  .pe{
+    margin-top: 15px; /* margen superior*/
+    margin-left: 15px; /* margen izquierdo*/
+  }
+ 
+  .btncolores{
+    background:#2edd02;
+    border: #2edd02;
+  }
+  /* **********************fin formulario******************* * * */
+  
+ 
+  /* *******************footer******************* */
+  footer{
+  background-color: #2e2e2e; /* color del boton*/
+  height: 100px; /* altura de la linea*/
+  margin-top: 20px; /* margen superior*/
+  }
+  .lista {
+  
+  margin-top: 30px;   /* margen superior*/
+  color:white    /* color del texto*/
+  }
+  .separar{
+  padding-left: 10px; /* separacion entre los botones*/
+  padding-right: 10px;    /* separacion entre los botones*/
+  }
+  /* **********************footer fin********************* */
+
+.ttt{
+  display: flex;
+}
+  
+

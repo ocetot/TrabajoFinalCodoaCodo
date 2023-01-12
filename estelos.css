@@ -1,0 +1,174 @@
+
+/* *******************nav******************* */
+/* tamaño de la imagen logo*/
+.imgg{
+    margin-top: 25px; /* margen superior*/
+    margin-left: 50px; /* margen izquierdo*/
+  }
+  /* margen derecho del nav */
+  .margenav{
+  margin-right: 50px; /* margen derecho*/
+  }
+  /* cambiar el color del boton del menu responsibo */
+  .navbar-toggler .navbar-toggler-icon{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); 
+  }
+  .navbar-light .navbar-toggler{
+  border: 1px solid white; /* borde del boton del menu responsivo*/ 
+  } 
+  /*hover cuando paso el mause cambia de color boton*/
+  .nav-item:hover{
+  background-color: #696969de;  /* color del boton*/
+  
+  }
+  /* cambia de color cuando paso el mause a verde de compra */
+  .compra:hover{
+  background-color: #1cf10983;  /* color del boton*/
+  }
+  /*separacion entre los botones*/
+  .mm{
+  padding-left: 8px;    /* separacion entre los botones*/
+  padding-right: 8px;  /* separacion entre los botones*/
+  }
+  
+  /* ********************fin nav*********************** */
+  
+  
+  /* *******************carousel******************* */
+  
+  .slide img {
+    height: 75vh ; /* 75% de la pantalla */
+    
+  }
+  
+  .llcentrartexto{
+  margin-left: 450px; /* margen izquierdo*/
+  margin-bottom: 100px; /* margen inferior*/
+  color: white; /* color del texto*/
+  font-size: 15px; /* tamaño de la letra*/
+  }
+  .btncolor{
+  background-color: rgb(129, 239, 20); /* color del boton*/
+  }
+  .btncolor:hover{
+  background-color: #1cf109; /* color del boton cuando paso el mause*/
+  color: white; /* color del texto*/
+  }
+  /* ********************fin carrousel*********************** */
+  /* **********************card*********************** */
+  .ptipobtn{
+  background-color: rgb(255, 89, 0); /* color del boton*/
+  
+  
+  }
+  .divbtnamarillo{
+  background-color: #eefd7d;
+  height: 25px; /* altura de la linea*/
+  width: 100px; /* ancho de la linea*/
+  border-radius: 5px; /* redondear los bordes*/
+  margin-bottom: 10px; /* margen inferior*/
+  
+  
+  }
+  .grupodebotones{
+  display: flex; /* agrupar los botones*/
+  
+  }
+  .btnazul{
+  background-color: #004cff;
+  height: 25px; /* altura de la linea*/
+  width: 70px; /* ancho de la linea*/
+  margin-left: 10px; /* margen izquierdo*/
+  border-radius: 5px; /* redondear los bordes*/
+  margin-bottom: 10px; /* margen inferior*/
+  
+  color:white;
+  
+  }
+  .pdebtn{
+  font-weight: bold; /* negrita*/
+  }
+  .divbtngris{
+  background-color: #5e5e5e;
+  color: white;
+  height: 25px; /* altura de la linea*/
+  width: 100px; /* ancho de la linea*/
+  border-radius: 5px; /* redondear los bordes*/
+  margin-bottom: 10px; /* margen inferior*/
+  
+  
+  }
+  .divbtnrojo{
+  background-color: #ff0000;
+  color: white;
+  margin-left: 10px; /* margen izquierdo*/
+  height: 25px; /* altura de la linea*/
+  width: 100px; /* ancho de la linea*/
+  border-radius: 5px; /* redondear los bordes*/
+  margin-bottom: 10px; /* margen inferior*/
+  }
+  /* ***********************fin card***********************  */
+  
+  
+  /* ***********************medio pagina ***********************  */
+  .continetodo{
+  display: flex; /* agrupar los botones*/
+  margin-top:  20px; /* margen superior*/
+  
+  }
+  .gris{
+  background-color: #2e2e2e;  /* color del boton*/
+  height: 400px; /* altura de la linea*/
+  width: 50%; /* ancho de la linea*/
+  margin-top: 20px; /* margen superior*/
+  margin-bottom: 20px; /* margen inferior*/
+  margin-left: 0px;   /* margen izquierdo*/
+  margin-right: 0px; /* margen derecho*/
+  padding: 0px; /* relleno*/
+  margin: 0px; /* margen*/
+  }
+  .foto{
+  background-image: url(img/honolulu.jpg); /* imagen de fondo*/
+  background-size: cover; /* tamaño de la imagen*/
+  background-position: center; /* posicion de la imagen*/ 
+  height: 400px; /* altura de la linea*/
+  width: 50%; /* ancho de la linea*/
+  margin-top: 20px; /* margen superior*/ 
+  margin-bottom: 20px;  /* margen inferior*/
+  margin-left: 0px; /* margen izquierdo*/
+  margin-right: 0px; /* margen derecho*/
+  padding: 0px; /* relleno*/
+  margin: 0px; /* margen*/
+  }
+  .h33{
+  color: white;    /* color del texto*/
+  margin-top: 25px; /* margen superior*/
+  margin-bottom: 25px; /* margen inferior*/
+  margin-right: 25px; /* margen derecho*/
+  margin-left: 25px; /* margen izquierdo*/
+  }
+  
+  /* *************************fin medio pagina***********************  */
+  
+  /* ************************formulario************************ */
+  .btncolor{
+  background-color: chartreuse; /* color del boton*/
+  
+  }
+  /* ***************************fin formulaio********************* */
+  /* *******************footer******************* */
+  footer{
+  background-color: #2e2e2e; /* color del boton*/
+  height: 100px; /* altura de la linea*/
+  margin-top: 20px; /* margen superior*/
+  }
+  .lista {
+  
+  margin-top: 30px;   /* margen superior*/
+  color:white    /* color del texto*/
+  }
+  .separar{
+  padding-left: 10px; /* separacion entre los botones*/
+  padding-right: 10px;    /* separacion entre los botones*/
+  }
+  /* **********************footer fin********************* */
